@@ -4,6 +4,7 @@ import edgeoneAdapter from "@edgeone/astro";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://astro-zen.edgeone.app/',
   adapter: edgeoneAdapter(),
   vite: {
     // Cast needed because Astro pins its own Vite types which differ from @tailwindcss/vite's types.
